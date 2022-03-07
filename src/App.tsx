@@ -38,6 +38,8 @@ function App() {
       <Oscar>
         <Heading>Oscar</Heading>
       </Oscar>
+
+      <Greet name="Pavan" isLoggedIn={true} />
     </div>
   );
 }
