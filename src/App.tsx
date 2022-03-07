@@ -4,6 +4,7 @@ import { Heading } from "./Components/Heading";
 import { Person } from "./Components/Person";
 import { PersonList } from "./Components/PersonList";
 import { Status } from "./Components/Status";
+import { Oscar } from './Components/Oscar';
 
 function App() {
   const personName = {
@@ -33,6 +34,10 @@ function App() {
       <PersonList names={nameList} />
       <Status status="success" />
       <Heading>Placeholder text</Heading>
+
+      <Oscar>
+        <Heading>Oscar</Heading>
+      </Oscar>
     </div>
   );
 }
