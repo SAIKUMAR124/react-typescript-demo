@@ -43,8 +43,8 @@ function App() {
       <Greet name="Pavan" isLoggedIn={true} />
 
       <Button
-        handleClick={() => {
-          console.log("Button Clicked");
+        handleClick={(event, id) => {
+          console.log("Button Clicked", event, id);
         }}
       />
     </div>
