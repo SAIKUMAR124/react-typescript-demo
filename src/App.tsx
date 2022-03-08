@@ -4,7 +4,8 @@ import { Heading } from "./Components/Heading";
 import { Person } from "./Components/Person";
 import { PersonList } from "./Components/PersonList";
 import { Status } from "./Components/Status";
-import { Oscar } from './Components/Oscar';
+import { Oscar } from "./Components/Oscar";
+import { Button } from "./Components/Button";
 
 function App() {
   const personName = {
@@ -40,6 +41,12 @@ function App() {
       </Oscar>
 
       <Greet name="Pavan" isLoggedIn={true} />
+
+      <Button
+        handleClick={() => {
+          console.log("Button Clicked");
+        }}
+      />
     </div>
   );
 }
