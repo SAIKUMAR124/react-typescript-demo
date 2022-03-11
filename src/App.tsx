@@ -10,6 +10,7 @@ import { Input } from './Components/Input';
 import { Container } from "./Components/Container";
 import { LoggedIn } from "./Components/state/LoggedIn";
 import { User } from './Components/state/User';
+import { Counter } from "./Components/reducer/Counter";
 
 function App() {
   const personName = {
@@ -55,6 +56,7 @@ function App() {
       <Container styles={{border: '1px solid black', padding: '1rem' }} />
       <LoggedIn />
       <User />
+      <Counter/>
     </div>
   );
 }
